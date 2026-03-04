@@ -88,17 +88,17 @@ graph TD
     P0 --> P1
     P1 --> P2 & P3 & P4
     P2 & P3 & P4 --> P5
-    P1 -.-> LAB
-    P5 -.-> HH
+    P1 -.->|em paralelo| LAB
+    P5 -.->|especialização| HH
 
-    style P0 fill:#3b82f6,color:#fff
-    style P1 fill:#f59e0b,color:#fff
-    style P2 fill:#10b981,color:#fff
-    style P3 fill:#8b5cf6,color:#fff
-    style P4 fill:#ef4444,color:#fff
-    style P5 fill:#14b8a6,color:#fff
-    style LAB fill:#f97316,color:#fff
-    style HH fill:#dc2626,color:#fff
+    style P0 fill:#3b82f6,color:#fff,stroke:#2563eb
+    style P1 fill:#f59e0b,color:#fff,stroke:#d97706
+    style P2 fill:#10b981,color:#fff,stroke:#059669
+    style P3 fill:#8b5cf6,color:#fff,stroke:#7c3aed
+    style P4 fill:#ef4444,color:#fff,stroke:#dc2626
+    style P5 fill:#14b8a6,color:#fff,stroke:#0d9488
+    style LAB fill:#f97316,color:#fff,stroke:#ea580c
+    style HH fill:#dc2626,color:#fff,stroke:#b91c1c
 ```
 
 
