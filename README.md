@@ -76,7 +76,7 @@ Antes da UTFPR cursei Ciência da Computação na UFPR (2020-2021), onde peguei 
 
 ```mermaid
 graph TD
-    P0["Pilar 0<br/>Matemática e Física<br/>0/36"]
+    P0["Pilar 0<br/>Matemática e Física<br/>1/36"]
     P1["Pilar 1<br/>Circuitos<br/>0/19"]
     P2["Pilar 2<br/>Eletrônica + RF<br/>0/19"]
     P3["Pilar 3<br/>Digital<br/>0/15"]
