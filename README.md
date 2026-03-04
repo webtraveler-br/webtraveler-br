@@ -83,13 +83,15 @@ graph TD
     P4["Pilar 4<br/>Eletrotécnica<br/>0/17"]
     P5["Pilar 5<br/>Controle + DSP<br/>0/16"]
     LAB["Lab Real<br/>0/19"]
-    HH["Hardware Hacking<br/>0/63"]
+    HHB["HH Básico<br/>0/38"]
+    HHA["HH Avançado<br/>0/25"]
 
     P0 --> P1
     P1 --> P2 & P3 & P4
     P2 & P3 & P4 --> P5
     P1 -.->|em paralelo| LAB
-    P5 -.->|especialização| HH
+    P5 -.->|especialização| HHB
+    HHB --> HHA
 
     style P0 fill:#3b82f6,color:#fff,stroke:#2563eb
     style P1 fill:#f59e0b,color:#fff,stroke:#d97706
@@ -98,7 +100,8 @@ graph TD
     style P4 fill:#ef4444,color:#fff,stroke:#dc2626
     style P5 fill:#14b8a6,color:#fff,stroke:#0d9488
     style LAB fill:#f97316,color:#fff,stroke:#ea580c
-    style HH fill:#dc2626,color:#fff,stroke:#b91c1c
+    style HHB fill:#dc2626,color:#fff,stroke:#b91c1c
+    style HHA fill:#991b1b,color:#fff,stroke:#7f1d1d
 ```
 
 
